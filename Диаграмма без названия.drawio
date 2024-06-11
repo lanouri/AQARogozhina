@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-11T14:19:25.765Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="8LXN2Avei6DcCIDFWiL4" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-11T14:29:41.357Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="C30ETQYlz-DTSX8JZZjC" version="24.5.3" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="720" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -11,24 +11,21 @@
           <mxGeometry x="660" y="120" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z2IqkKi7Da4i0CKnVRTP-46" value="Регистрация" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="360" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="z2IqkKi7Da4i0CKnVRTP-47" value="&amp;nbsp;Авторизация" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="220" width="120" height="80" as="geometry" />
+          <mxGeometry y="373" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="z2IqkKi7Da4i0CKnVRTP-49" value="Восстановление пароля" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="80" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="z2IqkKi7Da4i0CKnVRTP-50" value="Номер телефона и пароль" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="150" width="120" height="80" as="geometry" />
+        <mxCell id="z2IqkKi7Da4i0CKnVRTP-50" value="Ввести&amp;nbsp;&lt;div&gt;Номер телефона и пароль&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="100" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="z2IqkKi7Da4i0CKnVRTP-51" value="Номер паспорта и пароль" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="333" width="120" height="80" as="geometry" />
+        <mxCell id="z2IqkKi7Da4i0CKnVRTP-51" value="Ввести&amp;nbsp;&lt;div&gt;Номер паспорта и пароль&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="140" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="z2IqkKi7Da4i0CKnVRTP-54" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.008;entryY=0.344;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="z2IqkKi7Da4i0CKnVRTP-41" target="z2IqkKi7Da4i0CKnVRTP-47">
+        <mxCell id="z2IqkKi7Da4i0CKnVRTP-54" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="z2IqkKi7Da4i0CKnVRTP-71">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="190" as="sourcePoint" />
-            <mxPoint x="160" y="140" as="targetPoint" />
+            <mxPoint x="70" y="179.9956756756756" as="sourcePoint" />
+            <mxPoint x="240" y="244.32" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="z2IqkKi7Da4i0CKnVRTP-55" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="z2IqkKi7Da4i0CKnVRTP-41" target="z2IqkKi7Da4i0CKnVRTP-46">
@@ -43,11 +40,56 @@
             <mxPoint x="170" y="125" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="z2IqkKi7Da4i0CKnVRTP-59" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="z2IqkKi7Da4i0CKnVRTP-47" target="z2IqkKi7Da4i0CKnVRTP-51">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="320" as="sourcePoint" />
-            <mxPoint x="400" y="270" as="targetPoint" />
+        <mxCell id="z2IqkKi7Da4i0CKnVRTP-69" value="includes" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.8;entryY=0.138;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="z2IqkKi7Da4i0CKnVRTP-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="240" as="sourcePoint" />
+            <mxPoint x="336" y="231.03999999999996" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="z2IqkKi7Da4i0CKnVRTP-70" value="includes" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.838;entryY=0.335;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="z2IqkKi7Da4i0CKnVRTP-51" target="z2IqkKi7Da4i0CKnVRTP-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="279.5" as="sourcePoint" />
+            <mxPoint x="358.9723312160593" y="267.37154140200744" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z2IqkKi7Da4i0CKnVRTP-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="z2IqkKi7Da4i0CKnVRTP-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="260" />
+              <mxPoint x="220" y="261" />
+              <mxPoint x="190" y="261" />
+              <mxPoint x="190" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z2IqkKi7Da4i0CKnVRTP-71" value="Успешная авторизация&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="380" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="z2IqkKi7Da4i0CKnVRTP-72" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="z2IqkKi7Da4i0CKnVRTP-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="260" as="sourcePoint" />
+            <mxPoint x="410" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z2IqkKi7Da4i0CKnVRTP-76" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="215" y="238" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z2IqkKi7Da4i0CKnVRTP-78" value="Авторизация" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z2IqkKi7Da4i0CKnVRTP-79" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="z2IqkKi7Da4i0CKnVRTP-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="260" as="sourcePoint" />
+            <mxPoint x="410" y="330" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z2IqkKi7Da4i0CKnVRTP-73" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="260" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
