@@ -5,9 +5,28 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
-  <artifactId>TestsMTSBy2</artifactId>
+  <artifactId>lesson15_2</artifactId>
   <version>1.0-SNAPSHOT</version>
-
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>io.qameta.allure</groupId>
+        <artifactId>allure-maven</artifactId>
+        <version>2.10.0</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M3</version>
+        <configuration>
+          <useSystemClassLoader>false</useSystemClassLoader>
+          <systemPropertyVariables>
+            <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
+          </systemPropertyVariables>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
   <properties>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
@@ -36,22 +55,26 @@
       <version>2.8.0</version> <!-- Убедитесь, что используете последнюю версию -->
     </dependency>
     <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter</artifactId>
-      <version>RELEASE</version>
-      <scope>test</scope>
+      <groupId>io.qameta.allure</groupId>
+      <artifactId>allure-testng</artifactId>
+      <version>2.13.9</version>
     </dependency>
-    <!-- Allure Core -->
+    <!-- Allure Commandline -->
     <dependency>
       <groupId>io.qameta.allure</groupId>
-      <artifactId>allure-java-commons</artifactId>
-      <version>2.17.3</version> <!-- Проверьте последнюю версию -->
+      <artifactId>allure-commandline</artifactId>
+      <version>2.13.9</version>
     </dependency>
-    <!-- Allure JUnit -->
     <dependency>
       <groupId>io.qameta.allure</groupId>
-      <artifactId>allure-junit5</artifactId>
-      <version>2.17.3</version>
+      <artifactId>allure-testng</artifactId>
+      <version>2.17.2</version>
+      <exclusions>
+        <exclusion>
+          <artifactId>testng</artifactId>
+          <groupId>org.testng</groupId>
+        </exclusion>
+      </exclusions>
     </dependency>
   </dependencies>
 </project>
